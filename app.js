@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 const session = require("express-session");
 const routers = require("./routers");
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT;
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
