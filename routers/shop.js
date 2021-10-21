@@ -1,6 +1,6 @@
 let express = require("express");
-const Controller = require("../controllers/Controller");
 let router = express.Router();
+const Controller = require("../controllers/Controller");
 
 // let coba = function (req, res, next) {
 //   console.log("Time:", Date.now());

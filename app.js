@@ -1,7 +1,7 @@
 const express = require("express");
 const session = require("express-session");
-const routers = require("./routers");
 const app = express();
+const routers = require("./routers");
 const PORT = process.env.PORT || 3000;
 
 app.set("view engine", "ejs");
