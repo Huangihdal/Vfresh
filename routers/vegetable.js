@@ -1,5 +1,5 @@
 let express = require("express");
-const Controller = require("../controllers/controller");
+const Controller = require("../controllers/Controller");
 let router = express.Router();
 
 router.get("/add", Controller.vegeAdd);
