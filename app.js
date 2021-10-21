@@ -1,5 +1,4 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
 const session = require("express-session");
 const routers = require("./routers");
 const app = express();
@@ -24,6 +23,6 @@ app.use(
 
 app.use("/", routers);
 
-app.listen(port, () => {
-  console.log(`This app is listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`This app is listening on port ${PORT}`);
 });
