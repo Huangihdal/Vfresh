@@ -1,10 +1,8 @@
+const bcrypt = require("bcryptjs");
 const sort = require("../helper/barangSort");
 const { Op } = require("sequelize");
 const calculate = require("../helper/calculate");
-const currency = require("../helper/currency");
 const { Vegetable, User, Transaction } = require("../models");
-const user = require("../models/user");
-const bcrypt = require("bcryptjs");
 
 class Controller {
   static homePage(req, res) {
