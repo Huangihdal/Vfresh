@@ -1,4 +1,4 @@
-const Controller = require("../controllers/Controller");
+const Controller = require("../controllers/controller");
 let express = require("express");
 let vegetableRouters = require("./vegetable"); //Pekerja
 let shoppingRouter = require("./shop"); //Buyer
