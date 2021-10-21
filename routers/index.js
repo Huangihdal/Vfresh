@@ -1,9 +1,8 @@
-const Controller = require("../controllers/Controller");
 let express = require("express");
+let router = express.Router();
 let vegetableRouters = require("./vegetable"); //Pekerja
 let shoppingRouter = require("./shop"); //Buyer
-const user = require("../models/user");
-let router = express.Router();
+const Controller = require("../controllers/Controller");
 
 router.get("/", Controller.homePage);
 // router.get("/login", (req, res) => {
