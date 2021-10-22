@@ -2,6 +2,7 @@ let express = require("express");
 let router = express.Router();
 const Controller = require("../controllers/Controller");
 
+
 router.get("/add", Controller.vegeAdd);
 router.post("/add", Controller.vegeAddDb);
 router.get("/:id/delete", Controller.vegeDelete);
